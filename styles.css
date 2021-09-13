@@ -1,0 +1,50 @@
+table, th, td {
+    border: 1px double black;
+}
+
+table {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: seashell;
+    width: 50%;
+
+}
+
+h1, h2, ul {
+    color: midnightblue;
+    text-align: center;
+    font-weight: bold;
+    font-family: helvetica, serif;
+}
+
+h6 {
+    font-weight: italic;
+}
+
+th {
+    font-size: 25px;
+    color: blueviolet;
+    background-color: aqua;
+}
+
+th, td {
+    text-align: center;
+}
+
+.formatted {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: dodgerblue;
+    background-color: seashell;
+    opacity: 0.7;
+}
+
+nav ul {
+    text-align: left;
+}
+
+
+a[class*='blinkblink']:hover {
+    color: green;
+}
